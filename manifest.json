@@ -8,7 +8,7 @@
     "default_title": "My GitHub",
     "default_icon": "./img/mygithub_16.png"
   },
-  "permissions": ["declarativeContent","storage"],
+  "permissions": ["declarativeContent","storage","notifications", "contextMenu"],
   "icons": {
     "16": "./img/mygithub_16.png",
     "32": "./img/mygithub_32.png",

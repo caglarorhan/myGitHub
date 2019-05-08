@@ -41,10 +41,27 @@ let gitten = gitt.getRepos()
     .catch(err => console.log(err));
 
 //------------------------------------------------------------------------------------------
+//Storage Olayi
 // chrome.storage.sync.get('degiskenAdi',function(storageTemsiliDegiskenAdi){
     // storageTemsiliDegiskenAdi.degiskenAdi //ile ulasiliyor kayirli veriye
 // }); //callback sart -storage boyle kullaniliyor
 // veri set ederken de, key value olan bir objeyi set edecegiz
 // chrome.storage.sync.set({'degiskenAdi': yeniDeger})
-
+// Birden fazla degiskene ulasirken degiskenAdi yerine bir dizi icinde ['degiskenAdi1','degiskenAdi2'] seklinde devam edilecek...
 //---------------------------------------------------------------------------------------
+// Notifications olayi
+/*
+* manifest icinden permissons da notifications eklendikten sonra
+* var notifOptions = {
+*                   type: 'basic',
+*                   iconUrl: 'icon48.png',
+*                   title: 'Baslik',
+*                   message: 'Mesaj metni'
+*                   }
+* chrome.notifications.create('notificationID',notifOptions) //ile sag alt kosede mesaj cikar
+* */
+
+
+/*
+*
+* */
